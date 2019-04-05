@@ -1,0 +1,12 @@
+1)to compile the a.img from asm
+execute: make SRC=$src
+
+example:
+compile real_mode.asm
+make SRC=real_mode.asm
+or
+compile pmtest.asm
+make SRC=pmtest.asm
+
+2)to start bochs with a.img
+execute: /usr/local/bin/bochs -q
